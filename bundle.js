@@ -45,6 +45,8 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
+	__webpack_require__(5)
+
 	document.write("basic angular app!");
 
 
@@ -394,6 +396,22 @@
 		if(oldSrc)
 			URL.revokeObjectURL(oldSrc);
 	}
+
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	var app = angular.module('app', []);
+	app.controller('h1Controller', function() {
+	  this.word = 'Hello';
+	  this.click = function() {
+	    console.log(this.word);
+	    this.word = '';
+	  };
+	});
 
 
 /***/ }
