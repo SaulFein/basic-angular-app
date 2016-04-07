@@ -1,0 +1,27 @@
+{
+  "name": "basic-angular-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaulFein/basic-angular-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaulFein/basic-angular-app/issues"
+  },
+  "homepage": "https://github.com/SaulFein/basic-angular-app#readme",
+  "devDependencies": {
+    "angular": "^1.5.3"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
